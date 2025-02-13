@@ -11,7 +11,7 @@ A BepInEx plugin for Night in the Woods that allows custom character sprites to 
 ---
 
 ## Requirements
-- [BepInEx 6.x](https://builds.bepinex.dev/projects/bepinex_be)
+- [BepInEx 6.x (64 bit)](https://builds.bepinex.dev/projects/bepinex_be)
 - Night in the Woods (PC version)
 
 ---
@@ -19,7 +19,7 @@ A BepInEx plugin for Night in the Woods that allows custom character sprites to 
 ## Installation
 
 1. **Install BepInEx:**
-   - Download and extract BepInEx 6.x into the root folder of your Night in the Woods installation.
+   - Download and extract BepInEx 6.x (64 bit) into the root folder of your Night in the Woods installation.
 
 2. **Get the Plugin:**
    - Place the compiled `FontPatcher.dll` into the following directory:
