@@ -63,12 +63,18 @@ A BepInEx plugin for Night in the Woods that allows custom character sprites to 
      <Game Directory>\BepInEx\plugins\FontPatcher\assets\chars\char_scedilla\
      ```
      
-     Each folder should contain 3 frame images (64x64px):
+     Each folder needs to contain 3 frame images (64x64px):
      ```
      frame_0.png
      frame_1.png
      frame_2.png
      ```
+---
+
+## Important Notes
+- The character frame images should be 64x64 pixels. Any other resolution might cause the characters to appear wrong.
+- Each folder *needs* to contain 3 frame images or the plugin would break.
+- Folder structure needs to be correct/same with above, or the plugin would not recognize the characters.
 
 ---
 
