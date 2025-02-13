@@ -72,6 +72,7 @@ A BepInEx plugin for Night in the Woods that allows custom character sprites to 
 ---
 
 ## Important Notes
+- You only need to create images/config for capital letters because the game converts every dialogue string into upper case letters.
 - The character frame images should be 64x64 pixels. Any other resolution might cause the characters to appear wrong.
 - Each folder *needs* to contain 3 frame images or the plugin would break.
 - Folder structure needs to be correct/same with above, or the plugin would not recognize the characters.
