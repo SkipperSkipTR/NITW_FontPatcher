@@ -119,9 +119,9 @@ To build the NITW Font Patcher from source, follow these steps:
      - [BepInEx Plugin Templates](https://docs.bepinex.dev/master/articles/dev_guide/plugin_tutorial/1_setup.html)
 
 3. **Add References:**
-    - Copy the required DLLs from your game installation into a `libs` folder within the project directory:
+    - Copy the required DLLs from your game installation into a `lib` folder within the project directory:
       ```
-      NITW-FontPatcher/libs/
+      NITW-FontPatcher/lib/
       ├── Newtonsoft.Json.dll
       ├── Assembly-CSharp.dll
       └── UnityEngine.dll
@@ -129,12 +129,12 @@ To build the NITW Font Patcher from source, follow these steps:
 
 4. **Build the Plugin:**
     ```sh
-    dotnet build -c Release
+    dotnet build
     ```
 
     The compiled DLL can be found at:
     ```
-    NITW-FontPatcher/bin/Release/net6.0/FontPatcher.dll
+    NITW-FontPatcher/bin/Debug/net35/FontPatcher.dll
     ```
 
 5. **Install the Plugin:**
